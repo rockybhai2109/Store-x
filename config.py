@@ -26,7 +26,7 @@ API_KEY = "db677b89fa1843a5bf39d6681bed1405"
 NEWS_CHANNEL = -1002673901150  # or "@YourChannelUsername"
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "Choosen Onex") # Owner username without @
+OWNER = os.environ.get("OWNER", "Choosen_Onex") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "7328629001")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
