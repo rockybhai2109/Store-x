@@ -81,8 +81,8 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 <b>›› /count :</b> ᴄᴏᴜɴᴛ verifications
 """
 #--------------------------------------------
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @II_LevelUP_II</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• Powered by @CHOSEN_ONE_x_bot</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
@@ -92,10 +92,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "rohit_1888")
-UPI_ID = os.environ.get("UPI_ID", "rohit23pnb@axl")
-QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/rohit_1888")
+OWNER_TAG = os.environ.get("OWNER_TAG", "CHOSEN_ONEx")
+UPI_ID = os.environ.get("UPI_ID", "")
+QR_PIC = os.environ.get("QR_PIC", "")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"")
 #--------------------------------------------
 #Time and its price
 #7 Days
